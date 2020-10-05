@@ -10,7 +10,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
 	console.log("here");
-    res.json({"message": "Welcome to Exercise Tracker"});
+    res.json({"message": "Welcome to Exercise Tracker API"});
 	
 });
 
